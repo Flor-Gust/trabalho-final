@@ -11,25 +11,18 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/iftm.png')}
+          source={require('@/assets/images/corinthians.png')}
           style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Bem vindo!</ThemedText>
-        <HelloWave />
+        <ThemedText type="title">SCCP</ThemedText>
+        <ThemedText type="title">⚽</ThemedText>
       </ThemedView>
 
-      <ThemedText type="title">Eu sou o Luan</ThemedText>
-
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Etapa 1:</ThemedText>
-        <ThemedText type="defaultSemiBold">Primeiro App concluído.</ThemedText>
-      </ThemedView>
-      
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">E agora?</ThemedText>
-        <ThemedText type="defaultSemiBold">Vamos aprender um pouco sobre a estrutura de arquivos.</ThemedText>
+        <ThemedText type="subtitle">Sport Club Corinthians Paulista</ThemedText>
+        <ThemedText type="default">Lembra de 2012?</ThemedText>
       </ThemedView>
 
     </ParallaxScrollView>
